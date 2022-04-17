@@ -3,7 +3,8 @@
 using namespace std;
 
 
-Stack::Stack() {
+Stack::Stack() 
+{
       top = -1;
       for (int i = 0; i < 5; i++) {
         arr[i] = 0;
